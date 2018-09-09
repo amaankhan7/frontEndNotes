@@ -19,3 +19,27 @@ Table = definited with 'table' tag
 Rows = tr
 Header = thead, bold and centered by default
 Each cell = td
+
+Forms & Labels, gather imput from the user
+Use 'form' tag
+
+Use 'imput' tag, what goes into the form
+Text
+Email
+Password
+Date
+Color
+File
+Checkbox
+Radio
+
+'Label' tag
+Add captions to individual tags
+'imput' label nested inside 'label'
+Uses 'for' and 'id' attributes
+
+'Action' = the URL to send data to
+
+Get request = request data from an outside server
+
+Push request = send data to another server
