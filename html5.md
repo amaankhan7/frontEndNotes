@@ -14,3 +14,8 @@ i I = change numbering to Roman Numerals
 DIV = Block level element, takes up the entire line, container for other elements
 
 Attributes = provide additional info about HTML elements, always defined in opening tag
+
+Table = definited with 'table' tag
+Rows = tr
+Header = thead, bold and centered by default
+Each cell = td
