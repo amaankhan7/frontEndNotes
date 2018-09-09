@@ -12,3 +12,5 @@ a = sort alphabelitcally
 i I = change numbering to Roman Numerals
 
 DIV = Block level element, takes up the entire line, container for other elements
+
+Attributes = provide additional info about HTML elements, always defined in opening tag
