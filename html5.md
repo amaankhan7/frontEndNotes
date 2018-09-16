@@ -43,3 +43,5 @@ Uses 'for' and 'id' attributes
 Get request = request data from an outside server
 
 Push request = send data to another server
+
+Form Validation = ability to enfource rules and structure on a form

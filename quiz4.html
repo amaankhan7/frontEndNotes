@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+
+    <form action="#">
+        <div>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="John">
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Smith">
+        </div>
+        <br>
+
+
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male" required>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female" required>
+            <label for="other">Other</label>
+            <input type="radio" name="gender" id="other" value="other" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="email">E-Mail:</label>
+            <input type="email" placeholder="Your E-Mail">
+            <label for="password">Password:</label>
+            <input type="text">
+        </div>
+        <br>
+
+        <div>
+        <label for="birthday">Birthday:</label>
+        <select name="month" id="month">
+            <option value="month" disabled selected>Month</option>
+            <option value="month">January</option>
+            <option value="month">February</option>
+            <option value="month">March</option>
+            <option value="month">April</option>
+            <option value="month">May</option>
+            <option value="month">June</option>
+            <option value="month">July</option>
+            <option value="month">August</option>
+            <option value="month">September</option>
+            <option value="month">October</option>
+            <option value="month">November</option>
+            <option value="month">December</option>
+        </select>
+
+        <label for="day">Day:</label>
+        <select name="day" id="day">
+                <option value="day" disabled selected>Day</option>
+                <option value="day">1</option>
+                <option value="day">2</option>
+                <option value="day">3</option>
+        </select>
+
+        <label for="year">Year:</label>
+        <select name="year" id="year">Year:
+                <option value="year" selected disabled>Year</option>
+                <option value="year">2016</option>
+                <option value="year">2017</option>
+                <option value="year">2018</option>
+        </select>
+    </div>
+    <br>
+
+
+    </form>
+</body>
+
+</html>
